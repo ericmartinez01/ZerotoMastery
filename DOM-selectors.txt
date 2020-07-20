@@ -1,0 +1,29 @@
+DOM Selectors
+--------------
+getElementsByTagName // document.getElementsByTagName("button");
+getElementsByClassName // document.getElementsByClassName("search-icon");
+getElementById // document.getElementById("custom-bg");
+
+querySelector // document.querySelector(".gb_Dc") 
+querySelectorAll // document.querySelectorAll(".gb");
+
+getAttribute // document.getElementById("menu-back-circle").getAttribute("title");
+setAttribute // document.getElementById("logo-doodle").setAttribute("class", "search-icon");
+
+##Changing Styles
+style.{property} //ok
+
+className // document.getElementsByClassName("gb_8f");
+classList // document.getElementById("one-google").classList;
+
+classList.add // document.getElementById("one-google").classList.add("styling");
+classList.remove // document.getElementById("one-google").classList.remove("show-element");
+classList.toggle // document.getElementById("one-google").classList.toggle("styling");
+
+##Bonus
+innerHTML // document.getElementById("fakebox-text").innerHTML = " Yo Yo Yo";
+
+parentElement // document.getElementById("fakebox-cursor").parentElement;
+children // document.getElementById("fakebox-cursor").children;
+
+##It is important to CACHE selectors in variables
